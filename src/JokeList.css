@@ -1,0 +1,88 @@
+.JokeList {
+    display: flex;
+    width: 80%;
+    height: 80%;
+
+}
+
+.JokeList-sidebar{
+    background: #9575cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
+    box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71);
+    /* border-top-left-radius: 10px; border-bottom-left-radius: 10px; */
+    z-index: 2;
+}
+
+.JokeList-h1{
+    font-size: 4rem;
+    margin: 2rem;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 0.6rem;
+}
+
+.JokeList-h1 span{
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.JokeList-sidebar img{
+    width: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
+    box-shadow: 3px 6px 19px -9px rgba(0,0,0,0.71);
+}
+
+.JokeList-jokes{
+    height: 90%;
+    background: #fff;
+    align-self: center;
+    overflow: auto;
+    width: 70%;
+    border-top-right-radius: 10px; border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
+    box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71);
+}
+
+.JokeList-spinner{
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 1px 20px rgb(189, 189, 189);
+    text-align: center;
+}
+
+.JokeList-getmore{
+    width: 50%;
+    margin: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    padding: 1rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    word-spacing: 3rem;
+    background: rgb(238,102,233);
+    background: linear-gradient(145deg, rgba(238,102,233,1) 50%, rgba(84,129,232,1) 52%);
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
+    box-shadow: 0px 12px 38px rgba(0,0,0,0.3);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    /* transition-property: background; */
+
+}
+
+.JokeList-getmore:hover{
+    transform: translateY(-2px);
+    padding: 1rem 1rem;
+    word-spacing: .5rem;
+    background: rgb(235, 136, 231);
+    -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
+    box-shadow: 0px 12px 38px rgba(0,0,0,0.5);
+}
