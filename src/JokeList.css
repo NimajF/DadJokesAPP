@@ -86,3 +86,30 @@
     -webkit-box-shadow: 10px 8px 16px -12px rgba(0,0,0,0.71); 
     box-shadow: 0px 12px 38px rgba(0,0,0,0.5);
 }
+
+
+@media (max-width: 992px) { 
+    .JokeList{
+        flex-direction: column;
+    }
+    .JokeList-h1{
+        font-size: 1.3rem;
+        margin-right: -.5rem;
+    }
+    .JokeList-jokes{
+        width: 100%;
+        border-top-right-radius: 0px; border-bottom-left-radius: 10px;
+    }
+    .JokeList-sidebar{
+        width: 100%;
+        flex-direction: row;
+        height: 20%;
+        border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;
+    }
+    .JokeList-sidebar img{
+        width: 25%;
+    }
+    .JokeList-getmore{
+        margin-left: 1rem;
+    }
+ }
