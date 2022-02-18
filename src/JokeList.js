@@ -1,6 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
 import axios from "axios";
-import { Component } from "react/cjs/react.production.min";
 import "./JokeList.css"
 import Joke from "./Joke";
 
@@ -91,7 +90,7 @@ class JokeList extends Component{
             <div className="JokeList">
                 <div className="JokeList-sidebar">
                     <h1 className="JokeList-h1"><span>Dad</span> Jokes</h1>
-                    <img src="https://assets.dryicons.com/uploads/icon/svg/8927/0eb14c71-38f2-433a-bfc8-23d9c99b3647.svg" />
+                    <img src="https://assets.dryicons.com/uploads/icon/svg/8927/0eb14c71-38f2-433a-bfc8-23d9c99b3647.svg" alt="..."/>
                     <button className="JokeList-getmore" onClick={this.handleClick}>Fetch Jokes</button>
                 </div>
                

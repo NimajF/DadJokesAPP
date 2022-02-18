@@ -1,5 +1,4 @@
-import React from "react";
-import { Component } from "react/cjs/react.development";
+import React, { Component } from "react";
 import './Joke.css'
 
 class Joke extends Component{
