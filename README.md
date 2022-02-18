@@ -1,10 +1,20 @@
-# Dad Jokes app
-
-### Created with React (classed-based components);
+# Dad Jokes app 😂
 
 
-Part of [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp/).
+## Part of [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp/).
 
+### Created with React using classed-based components and jokes API;
+
+#### Generates random list of jokes where you can up or downvote each joke.
+
+You can visit the app [here](https://nimajf.github.io/DadJokesAPI/).
+<br><br>
+
+### Preview
+![image](https://user-images.githubusercontent.com/89944815/154774120-d46ba535-8e10-4126-bd2f-64fa8f494238.png)
+![image](https://user-images.githubusercontent.com/89944815/154774166-535a14c1-ae9c-4454-be32-1c38add13092.png)
+
+<br><br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
