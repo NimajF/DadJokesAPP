@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Dad Jokes app
+
+### Created with React (classed-based components);
+
+
+Part of [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
