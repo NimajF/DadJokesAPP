@@ -7,7 +7,7 @@
 
 #### Generates random list of jokes where you can up or downvote each joke.
 
-You can visit the app [here](https://nimajf.github.io/DadJokesAPI/).
+You can visit the app [here](https://nimajf.github.io/DadJokesAPP/).
 <br><br>
 
 ### Preview
